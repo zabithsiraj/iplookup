@@ -16,7 +16,7 @@ banner='''
         '''
         
 print(banner)
-cmd= "curl -s http://api.hackertarget.com/reverseiplookup/?q=" + input("[-]Enter Site Name : ")
+cmd= "curl -s https://api.hackertarget.com/reverseiplookup/?q=" + input("[-]Enter Site Name : ")
 print("[-]searching for credentials")
 print("[-]Please Wait .... \033[1;33;40m")
 os.system(cmd)
